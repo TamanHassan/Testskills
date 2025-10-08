@@ -14,5 +14,114 @@
                     <div class="nav">
                         <div class="brand">
                             <svg width="36" height="36" viewbox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#6b5cff"/></svg>
+                            <h1>Bhromaon</h1>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li><a href="#why">Why Us</a></li>
+                                    <li><a href="#places">Places</a></li>
+                                    <li><a href="#testimonials">Testomonials</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                        <div class="hero-inner">
+                            <h2>See. Travel. Anywhere.</h2>
+                            <p>Find unique travel experiences, hand-picked stays, curated tours - all in one place</p>
+                            <form class="search-card" id="searchForm" novalidate>
+                                <input id="q" name="q" type="text" placeholder="Search for places, hotels.." required minlength="2">
+                                <button type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+
+                <main>
+                    <section id="why" class="why">
+                        <div class="container why-inner">
+                            <div>
+                                <h2>Why Choose Us</h2>
+                                <p>We help travelers find the perfect destination and seamless booking experience. Our curated listings are verified and updated fequently</p>
+                                <p><a href="places" class="btn-ghost">Explore Places</a></p>
+                                </div>
+                                <aside>
+                                    <img src="" alt="">
+                                    <img src="" alt="">
+                                  </aside>
+                                </div>
+
+                                <div class="container featuers">
+                                    <div class="feature"><i class="fa fa-search"></i><span>Search Places</span></div>
+                                    <div class="feature"><i class="fa fa-map-marker-alt"></i><span>Select Places</span></div>
+                                    <div class="feature"><i class="fa fa-plane"></i><span>Book & Enjoy</span></div>
+                                    </div>
+                                    </section>
+
+                                <section id="places" class="cards">
+                                    <div class="container">
+                                        <div class="card" style="background-image:url()">
+                                            <div class="card-body">
+                                                <h3>Stunning Modern Villa</h3>
+                                                <p>6 Guests . 3 beedrooms . Pool</p>
+                                                <a href="#">View Deal</a>
+                                                </div>
+                                               </div>
+                                                <div class="card" style="background-image:url()">
+                                                    <div class="card-body">
+                                                        <h3>Seaside Escape</h3>
+                                                        <p>Romantic sunsets and private beach access</p>
+                                                        <a href="#">Book Now</a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                 </section>
+
+                                                 <section id="testimonials" class="testimonial">
+                                                    <div class="container test-inner">
+                                                        <h2>What Our Tourists Say</h2>
+                                                        <blockquote>
+                                                            <p>Bhromaon helped me find an amazing mountain cabin - the process was effortless and the host was fantastic.</p>
+                                                            <footer>Sam Johnson</footer>
+                                                          </blockquote>
+                                                         </div>
+                                                       </section>
+                                                    </main>
+
+                                                <footer class="site-footer">
+                                                    <div class="container">
+                                                        <p>&copy; <span id="year"></span> Bhromaon - All rights reserved</p>
+                                                        </div>
+                                                      </footer>
+
+                                                    <script>
+                                                        document.getElementById("year").textContent = new Date () .getFullYear();
+                                                        const form = document.getElementById("searchForm");
+                                                        const input = document.getElementById("q");
+                                                        form.addEventlistener("submit", e=> {
+                                                            if (!input.checkValidity))  {
+                                                                e.preventDefault();
+                                                                alert("Please enter at least 2 characters");
+                                                                }
+                                                              });
+                                                          </script>
+                                
+                                                            
+                                                          </body>
+                                                        </html>
+                                        
+                                                            
+                                                          
+
+                                                       
+                                                        
+
+
+                            
+                
+
+                                
         
     
