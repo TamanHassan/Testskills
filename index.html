@@ -62,14 +62,14 @@
 
                                 <section id="places" class="cards">
                                     <div class="container">
-                                        <div class="card" style="background-image:url(images/bg1.png)">
+                                        <div class="card" style="background-image:url(images/bg1.png)"></div>
                                             <div class="card-body">
                                                 <h3>Stunning Modern Villa</h3>
                                                 <p>6 Guests . 3 beedrooms . Pool</p>
                                                 <a href="#">View Deal</a>
                                                 </div>
                                                </div>
-                                                <div class="card" style="background-image:url()">
+                                                <div class="card" style="background-image:url(images/bg2.png)">
                                                     <div class="card-body">
                                                         <h3>Seaside Escape</h3>
                                                         <p>Romantic sunsets and private beach access</p>
@@ -100,8 +100,8 @@
                                                         document.getElementById("year").textContent = new Date () .getFullYear();
                                                         const form = document.getElementById("searchForm");
                                                         const input = document.getElementById("q");
-                                                        form.addEventlistener("submit", e=> {
-                                                            if (!input.checkValidity))  {
+                                                        form.addEventListener("submit", e=> {
+                                                            if (!input.checkValidity())  {
                                                                 e.preventDefault();
                                                                 alert("Please enter at least 2 characters");
                                                                 }

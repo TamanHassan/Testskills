@@ -22,7 +22,7 @@ body {
 
 .hero {
     min-height: 480px;
-    background: linear-gradient(rgba(3,6,15,0.35), rgba(3,6,15,0.35)), url("");
+    background: linear-gradient(rgba(3,6,15,0.35), rgba(3,6,15,0.35)), url(../images/bg1.png);
     background-size: cover;
     background-position: center;
 }
@@ -86,7 +86,8 @@ body {
 }
 
 .why {
-    background: rgba(4,8,14,0.6);
+    background: url(../images/why-bg2.png);
+    background-size:cover;
     padding: 36px 20px;
 }
 
@@ -116,6 +117,10 @@ body {
 }
 
 .cards {
+    background: linear-gradient(rgba(3,6,15,0.35), rgba(3,6,15,0.35)), url(../images/bg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: grid;
     gap: 18px;
     padding: 20px;
@@ -151,7 +156,10 @@ body {
 
 .testimonial {
     padding: 40px 20px;
-    background: #08101a;
+    background: linear-gradient(rgba(3,6,15,0.35), rgba(3,6,15,0.35)), url(../images/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     color: #dfe9ff;
     text-align: center;
 }
