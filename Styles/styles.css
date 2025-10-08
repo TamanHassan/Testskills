@@ -4,6 +4,7 @@
     --muted: #6b6b6b;
     --bg: #081018;
     --max-w: 1100px;
+    --bottom-nav-bg: #4460F7;
 }
 
 body {
@@ -18,6 +19,16 @@ body {
     max-width: var(--max-w);
     margin: 0 auto;
     padding: 20px;
+}
+.hero.container  {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .hero {
@@ -65,7 +76,7 @@ body {
 .search-card input {
     flex: 1;
     padding: 12px;
-    border: 1px solid rgba(255,255,255,0.1)
+    border: 1px solid rgba(255,255,255,0.1);
     border-radius: 6px;
     background:transparent;
     color: #fff;
@@ -82,7 +93,7 @@ body {
 }
 
 .search-card button:hover {
-    filter: brightness (1.1);
+    filter: brightness(1.1);
 }
 
 .why {
@@ -95,7 +106,24 @@ body {
     display: grid;
     grid-template-columns: 1fr 360px;
     gap: 28px;
+    align-items: center;
 }
+
+.why-inner aside  {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    }
+
+.why-inner aside img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    }
+
+
 
 .btn-ghost {
     display: inline-block;
@@ -149,7 +177,7 @@ body {
     display: inline-block;
     padding: 8px 12px;
     border-radius: 6px;
-    background: var (--accent);
+    background: var(--accent);
     color: #fff;
     font-weight: 700;
 }
@@ -176,7 +204,7 @@ body {
     }
     }
 @media (max-width:520px) {
-    search-card {
+    .search-card {
         flex-direction: column;
     }
     }
