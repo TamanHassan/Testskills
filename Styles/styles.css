@@ -141,6 +141,7 @@ body {
     border: 1px solid rgba(255,255,255,0.2);
     color: #fff;
     border-radius: 6px;
+    background:  #4460f7;
 }
 
 .features {
@@ -148,11 +149,70 @@ body {
     justify-content: center;
     gap: 18px;
     padding: 18px 0;
+    position: relative;
+    overflow: hidden;
 }
 
-.feature i {
+
+
+.feature i{
     font-size: 22px;
+
 }
+.property-card {
+    background: rgba(0.0.0.0.7);
+    padding: 30px;
+    border-radius:8px;
+    max-width: 450px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 10;
+    color: #fff;
+}
+
+
+
+.property-card h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: rgba(255,255,255,0.8);
+    }
+
+.property-card h2 {
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    }
+
+.property-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: rgba (255,255,255,0.9);
+    }
+
+.btn-book-now {
+    display: inline-block;
+    background: #4460f7;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3 ease;
+     }
+
+
+
+
+
+
+    
 
 .cards {
     background: linear-gradient(rgba(3,6,15,0.35), rgba(3,6,15,0.35)), url(../images/bg4.png);
