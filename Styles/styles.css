@@ -50,6 +50,145 @@ body {
     background: rgba(255,255,255,0.04);
 }
 
+.hero-inner {
+    text-align: center;
+    padding: 56px 20px;
+}
+
+.search-card {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-card input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,0.1)
+    border-radius: 6px;
+    background:transparent;
+    color: #fff;
+}
+
+.search-card button {
+    background: var(--accent);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.search-card button:hover {
+    filter: brightness (1.1);
+}
+
+.why {
+    background: rgba(4,8,14,0.6);
+    padding: 36px 20px;
+}
+
+.why-inner {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 28px;
+}
+
+.btn-ghost {
+    display: inline-block;
+    padding: 10px 14px;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #fff;
+    border-radius: 6px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding: 18px 0;
+}
+
+.feature i {
+    font-size: 22px;
+}
+
+.cards {
+    display: grid;
+    gap: 18px;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-body {
+    position:absolute;
+    left: 20px;
+    bottom: 20px;
+    background: rgba(0,0,0,0.4);
+    padding: 16px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.card-body a {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: var (--accent);
+    color: #fff;
+    font-weight: 700;
+}
+
+.testimonial {
+    padding: 40px 20px;
+    background: #08101a;
+    color: #dfe9ff;
+    text-align: center;
+}
+
+.site-footer {
+    padding: 20px;
+    text-align: center;
+    color: #0fb2d6;
+}
+
+@media (max-width: 900px) {
+    .why-inner {
+        grid-template-columns: 1fr;
+    }
+    }
+@media (max-width:520px) {
+    search-card {
+        flex-direction: column;
+    }
+    }
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
